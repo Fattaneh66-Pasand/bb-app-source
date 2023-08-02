@@ -24,13 +24,13 @@ spec:
     spec:
       containers:
         - name: app
-          image: siddharth67/block-buster-dev:7.8.0
+          image: fattaneh/bb-app-flux-demo:7.8.0
           imagePullPolicy: Always
-          resources:
+          resources: 
             requests:
               memory: "10Mi"
               cpu: "10m"
-            limits:
+            limits: 
               memory: "64Mi"
               cpu: "20m"
           env:
